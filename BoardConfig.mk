@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/xiaomi/mi8937
+LOCAL_PATH := device/xiaomi/riva
 
 # Architecture
 TARGET_ARCH := arm64
@@ -30,7 +30,7 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a53
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := msm8937
+TARGET_BOOTLOADER_BOARD_NAME := msm8917
 TARGET_NO_BOOTLOADER := true
 
 # Crypto
@@ -47,8 +47,8 @@ BOARD_RAMDISK_OFFSET := 0x01000000
 TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/prebuilt/Image.gz-dtb
 
 # Platform
-TARGET_BOARD_PLATFORM := msm8937
-TARGET_BOARD_PLATFORM_GPU := qcom-adreno505
+TARGET_BOARD_PLATFORM := msm8917
+TARGET_BOARD_PLATFORM_GPU := qcom-adreno308
 TARGET_BOARD_SUFFIX := _64
 
 # Partitions
